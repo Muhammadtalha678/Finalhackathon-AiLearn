@@ -71,28 +71,28 @@ class HomeScreen extends StatelessWidget {
                       RowHome(
                        data:Column(
                          children: [
-                           ContainerHome(ONTAP: (){},child: Icon(Icons.people,color: Colors.blue,),),
+                           ContainerHome(ONTAP: (){},child: Image(image: AssetImage("assets/images/coding.jpeg"))),
                            SizedBox(height: 10,),
                            Text("Coding")
                          ],
                        ) ,
                        data1:Column(
                          children: [
-                           ContainerHome(ONTAP: (){},child: FaIcon(FontAwesomeIcons.locationCrosshairs,color: Colors.blue,),),
+                           ContainerHome(ONTAP: (){},child: Image(image: AssetImage("assets/images/design.jpeg"))),
                            SizedBox(height: 10,),
                            Text("Design")
                          ],
                        ) ,
                        data2:Column(
                          children: [
-                           ContainerHome(ONTAP: (){},child: Icon(Icons.remove_red_eye,color: Colors.blue,),),
+                           ContainerHome(ONTAP: (){},child: Image(image: AssetImage("assets/images/marketing.jpeg"))),
                            SizedBox(height: 10,),
                            Text("Marketing")
                          ],
                        ) ,
                        data3:Column(
                          children: [
-                           ContainerHome(ONTAP: (){},child: FaIcon(FontAwesomeIcons.nutritionix,color: Colors.blue,),),
+                           ContainerHome(ONTAP: (){},child: Image(image: AssetImage("assets/images/business.jpeg"))),
                            SizedBox(height: 10,),
                            Text("Business")
                          ],
@@ -102,14 +102,14 @@ class HomeScreen extends StatelessWidget {
                        RowHome(
                        data:Column(
                          children: [
-                           ContainerHome(ONTAP: (){},child: Icon(Icons.people,color: Colors.blue,),),
+                           ContainerHome(ONTAP: (){},child: Image(image: AssetImage("assets/images/lifestyle.jpeg"))),
                            SizedBox(height: 10,),
                            Text("Lifestyle")
                          ],
                        ) ,
                        data1:Column(
                          children: [
-                           ContainerHome(ONTAP: (){},child: FaIcon(FontAwesomeIcons.locationCrosshairs,color: Colors.blue,),),
+                           ContainerHome(ONTAP: (){},child: Image(image: AssetImage("assets/images/music.jpeg"))),
                            SizedBox(height: 10,),
                            Text("Music")
                          ],
@@ -117,14 +117,14 @@ class HomeScreen extends StatelessWidget {
                        data2:Column(
                          children: [
                            ContainerHome(
-                            ONTAP: (){},child: Icon(Icons.remove_red_eye,color: Colors.blue,),),
+                            ONTAP: (){},child: Image(image: AssetImage("assets/images/academics.jpeg"))),
                            SizedBox(height: 10,),
                            Text("Academics")
                          ],
                        ) ,
                        data3:Column(
                          children: [
-                           ContainerHome(ONTAP: (){},child: FaIcon(FontAwesomeIcons.nutritionix,color: Colors.blue,),),
+                           ContainerHome(ONTAP: (){},child: Image(image: AssetImage("assets/images/more.jpeg"))),
                            SizedBox(height: 10,),
                            Text("More")
                          ],
